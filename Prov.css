@@ -1,0 +1,80 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto 4fr;
+    grid-template-areas:
+        "top top"
+        "choose showCard";
+}
+
+.top {
+    grid-area: top;
+    border: 1px solid black;
+}
+
+.choose {
+    grid-area: choose;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+#showCard {
+    grid-area: showCard;
+    border: 1px solid black;
+    padding-top: 30px;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+#submit {
+    background-color: rgba(88, 88, 88, 0.425);
+}
+
+#submit,
+#pictures,
+#backgroundcolor {
+    width: 90%;
+    margin-bottom: 20px;
+    margin-top: 9px;
+}
+
+#rectangle {
+    padding: 8px;
+    width: 24%;
+    height: 85%;
+    border: 1px solid #000;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    background-color: #0f0fb1c0;
+}
+
+#backgroundcolor {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+img {
+    width: 50%;
+    height: 60%;
+}
+
+body {
+    background-color: rgba(116, 114, 114, 0.719);
+}
+
+label {
+    font-size: larger;
+}
+
+textarea,
+button,
+select,
+input {
+    border: 2px solid black;
+}
