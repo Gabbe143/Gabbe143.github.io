@@ -6,17 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Prov.css">
+    <link rel="stylesheet" href="Prov.js">
     <title>Prov</title>
-    <script>
-        function getNewPicture() {
-            var Color = document.getElementById("backgroundcolor").value;
-            var writtenText = document.getElementById("inputText").value;
-            var choice = document.getElementById("pictures");
-            var choiceText = choice.options[choice.selectedIndex].text;
-            var div = `<div id="rectangle" style="background-color: ${Color}""><h3>${writtenText}</h3> <img src="Bilder/${choiceText}.png"></img></div>`
-            document.getElementById("showCard").innerHTML = div;
-        }
-    </script>
 </head>
 
 <body>
